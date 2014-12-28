@@ -6,3 +6,7 @@
 .navbar-default .navbar-brand {
     font-family: "Cinzel", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
+
+.bio h4 {
+    text-transform: none;
+}
