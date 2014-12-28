@@ -1,0 +1,8 @@
+/* Override navbar font and color */
+* {
+    font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Cinzel", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
