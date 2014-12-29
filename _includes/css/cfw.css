@@ -10,3 +10,7 @@
 .bio h4 {
     text-transform: none;
 }
+
+.img-responsive {
+    display: inline-block;
+}
