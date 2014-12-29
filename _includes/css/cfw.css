@@ -14,3 +14,16 @@
 .img-responsive {
     display: inline-block;
 }
+
+address {
+    font-size: 18px;
+}
+
+section#contact {
+    background-color: #fff;
+    background-image: none;
+}
+
+section#contact .section-heading {
+    color: #333;
+}
