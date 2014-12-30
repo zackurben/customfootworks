@@ -3,6 +3,10 @@
     font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
+body {
+    font-size: 16px;
+}
+
 /* Update navbar brand font. */
 .navbar-default .navbar-brand {
     font-family: "Cinzel", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
@@ -13,6 +17,10 @@
     text-transform: none;
 }
 
+.bio {
+    padding-top: 25px;
+}
+
 /* Margin fix on image containers. */
 .img-responsive {
     display: inline-block;
@@ -20,7 +28,7 @@
 
 /* Update address font sizes for readibility. */
 address {
-    font-size: 18px;
+    /*font-size: 16px;*/
 }
 
 /* Remove template image from contact section background. */
@@ -46,15 +54,12 @@ section#contact .section-heading {
 
 /* Update styling for btn-sm */
 .btn-sm {
-    /*padding: 20px 40px;*/
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    /*font-size: 18px;*/
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .btn-sm:hover,
