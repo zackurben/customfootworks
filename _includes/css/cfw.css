@@ -38,3 +38,61 @@ section#contact .section-heading {
 .row {
     padding: 15px 0px 15px 0px;
 }
+
+/* Add a call to action button for the Hero. */
+.intro-button {
+    margin-bottom: 50px;
+}
+
+/* Update styling for btn-sm */
+.btn-sm {
+    /*padding: 20px 40px;*/
+    border-color: #{{ site.color.primary }};
+    border-radius: 3px;
+    text-transform: uppercase;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font-size: 18px;*/
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+.btn-sm:hover,
+.btn-sm:focus,
+.btn-sm:active,
+.btn-sm.active,
+.open .dropdown-toggle.btn-sm {
+    border-color: #{{ site.color.primary }};
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+}
+
+.btn-sm:active,
+.btn-sm.active,
+.open .dropdown-toggle.btn-sm {
+    background-image: none;
+}
+
+.btn-sm.disabled,
+.btn-sm[disabled],
+fieldset[disabled] .btn-sm,
+.btn-sm.disabled:hover,
+.btn-sm[disabled]:hover,
+fieldset[disabled] .btn-sm:hover,
+.btn-sm.disabled:focus,
+.btn-sm[disabled]:focus,
+fieldset[disabled] .btn-sm:focus,
+.btn-sm.disabled:active,
+.btn-sm[disabled]:active,
+fieldset[disabled] .btn-sm:active,
+.btn-sm.disabled.active,
+.btn-sm[disabled].active,
+fieldset[disabled] .btn-sm.active {
+    border-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+}
+
+.btn-sm .badge {
+    color: #{{ site.color.primary }};
+    background-color: #fff;
+}
