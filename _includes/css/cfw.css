@@ -1,29 +1,40 @@
-/* Override navbar font and color */
+/* Consolidate all website fonts. */
 * {
     font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
+/* Update navbar brand font. */
 .navbar-default .navbar-brand {
     font-family: "Cinzel", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
+/* Stop uppercase text transform on headers. */
 .bio h4 {
     text-transform: none;
 }
 
+/* Margin fix on image containers. */
 .img-responsive {
     display: inline-block;
 }
 
+/* Update address font sizes for readibility. */
 address {
     font-size: 18px;
 }
 
+/* Remove template image from contact section background. */
 section#contact {
     background-color: #fff;
     background-image: none;
 }
 
+/* Update font color for contact header section.*/
 section#contact .section-heading {
     color: #333;
+}
+
+/* Add padding to containers to remove immediate div stacking. */
+.row {
+    padding: 15px 0px 15px 0px;
 }
