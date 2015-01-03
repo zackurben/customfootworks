@@ -26,9 +26,9 @@ body {
     display: inline-block;
 }
 
-/* Update address font sizes for readibility. */
-address {
-    /*font-size: 16px;*/
+/* Override font alignment. */
+footer {
+    text-align: left;
 }
 
 /* Remove template image from contact section background. */
