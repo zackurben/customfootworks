@@ -60,6 +60,7 @@ section#contact .section-heading {
     font-weight: 700;
     color: #fff;
     background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
 }
 
 .btn-sm:hover,
