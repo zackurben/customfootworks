@@ -6,10 +6,18 @@ exclude: [".git/", "LICENSE", "README.md"]
 
 title: Custom Footworks
 email: lpu17@aol.com
-description: "Custom Footworks is a full service Pedorthic facility, improving the quality of life one patient at a time. Services include custom on-site orthoses evaluation and fabrication."
+description: "Custom Footworks is a full service Pedorthic facility, improving the quality of life one patient at a
+              time. Services include custom on-site orthoses evaluation and fabrication."
 
-# Serve settings
-port: 80
+about:
+  cfw: "Custom Footworks is a full service Pedorthic facility, improving the quality of life one patient at a time.
+        Service includes custom on-site orthoses evaluation and fabrication. Custom Footworks handles athletes of from
+        all age and skill levels, from Little League to Professional. Specialization includes arthritis, diabetic care,
+        orthopedic trauma, and post operative protection."
+  larry: "Larry holds a Master’s degree and has been a Certified Athletic Trainer for over 35 years. He has been
+          practicing as a full time Pedorthist for the past 13 year. Combining his Sports Medicine background and the
+          fabrication of functional orthotics, he has created a unique product. The devices are hand fabricated on-site
+          using different density materials to meet the specific needs of each foot."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
