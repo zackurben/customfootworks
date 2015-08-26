@@ -24,6 +24,8 @@ color:
   primary: 1881a0
   secondary: 157290
   secondary-dark: 333333
+  light: ffffff
+  dark: 222222
 
 # Build settings
 markdown: kramdown

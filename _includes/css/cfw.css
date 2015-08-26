@@ -1,66 +1,70 @@
 /* Consolidate all website fonts. */
 * {
-    font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* Update navbar brand font. */
 .navbar-default .navbar-brand {
-    font-family: "Cinzel", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-family: "Cinzel", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 /* Stop uppercase text transform on headers. */
 .bio h4 {
-    text-transform: none;
+  text-transform: none;
 }
 
 .bio {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 /* Margin fix on image containers. */
 .img-responsive {
-    display: inline-block;
+  display: inline-block;
 }
 
 /* Override font alignment. */
 footer {
-    text-align: left;
+  text-align: left;
 }
 
 /* Remove template image from contact section background. */
 section#contact {
-    background-color: #fff;
-    background-image: none;
+  background-color: #{{ site.color.light }};
+  background-image: none;
 }
 
 /* Update font color for contact header section.*/
 section#contact .section-heading {
-    color: #333;
+  color: #{{ site.color.secondary-dark}};
 }
 
 /* Add padding to containers to remove immediate div stacking. */
 .row {
-    padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 /* Add a call to action button for the Hero. */
 .intro-button {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.intro-heading {
+  word-spacing: 28px;
 }
 
 /* Update styling for btn-sm */
 .btn-sm {
-    border-color: #{{ site.color.primary }};
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 5px;
+  border-color: #{{ site.color.primary }};
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #{{ site.color.light }};
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 5px;
 }
 
 .btn-sm:hover,
@@ -68,15 +72,15 @@ section#contact .section-heading {
 .btn-sm:active,
 .btn-sm.active,
 .open .dropdown-toggle.btn-sm {
-    border-color: #{{ site.color.primary }};
-    color: #fff;
-    background-color: #{{ site.color.secondary }};
+  border-color: #{{ site.color.primary }};
+  color: #{{ site.color.light }};
+  background-color: #{{ site.color.secondary }};
 }
 
 .btn-sm:active,
 .btn-sm.active,
 .open .dropdown-toggle.btn-sm {
-    background-image: none;
+  background-image: none;
 }
 
 .btn-sm.disabled,
@@ -94,11 +98,23 @@ fieldset[disabled] .btn-sm:active,
 .btn-sm.disabled.active,
 .btn-sm[disabled].active,
 fieldset[disabled] .btn-sm.active {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+  border-color: #{{ site.color.primary }};
+  background-color: #{{ site.color.primary }};
 }
 
 .btn-sm .badge {
-    color: #{{ site.color.primary }};
-    background-color: #fff;
+  color: #{{ site.color.primary }};
+  background-color: #{{ site.color.light }};
+}
+
+.panel-default > .panel-heading {
+  font: 28px;
+  color: #{{ site.color.secondary-dark }};
+  /*background-color: #{{ site.color.primary }};*/
+  /*background-color: #{{ site.color.dark }};*/
+  font-size: 22px;
+}
+
+.panel-default > .panel-body {
+  text-align: left;
 }
