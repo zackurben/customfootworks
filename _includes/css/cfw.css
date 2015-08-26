@@ -44,7 +44,7 @@ section#contact .section-heading {
 
 /* Add padding to containers to remove immediate div stacking. */
 .row {
-  padding: 15px 0px 15px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 /* Add a call to action button for the Hero. */
@@ -110,8 +110,7 @@ fieldset[disabled] .btn-sm.active {
 .panel-default > .panel-heading {
   font: 28px;
   color: #{{ site.color.secondary-dark }};
-  /*background-color: #{{ site.color.primary }};*/
-  /*background-color: #{{ site.color.dark }};*/
+  background-color: #F7F7F7;
   font-size: 22px;
 }
 
