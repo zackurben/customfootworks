@@ -17,7 +17,40 @@ about:
   larry: "Larry Urben MS ATC LAT C.Ped is the clinician. Larry holds a Master’s degree and has been a Certified Athletic
           Trainer for over 35 years. He has been practicing as a full time Pedorthist for the past 13 year. Combining
           his Sports Medicine background and the fabrication of functional orthotics, he has created a unique product.
-          The devices are fabricated on-site using different density materials to meet your specific needs."
+          All orthotic devices are hand fabricated on-site using different density materials to meet your specific needs."
+
+services:
+  summary: "The Pedorthic profession includes the design and manufacture of foot orthoses,
+            modification and selection of proper footwear, all aimed to prevent and/or
+            alleviate foot problems. We focus on the fabrication and dispensing of orthotic
+            devices as well as extra depth footwear and custom shoes. Pedorthists accept
+            referrals from Physicians, to dispense orthotics for a myriad of lower extremity
+            conditions."
+  list:
+    - "Bunions (Hallux Abducto Valgus)"
+    - "Post operative foot and ankle conditions"
+    - "Sesamoiditis"
+    - "Plantar Fasciitis and heel spurs"
+    - "ACL and Patellofemoral problems"
+    - "Neuroma and metatarsalgia"
+    - "Congenital deformities"
+  orthotics: "The goal of the orthotic is to improve the lower extremity mechanics, by controlling
+              the rear foot, mid tarsal joint, and the forefoot. Through controlling the amount and
+              timing of pronation, abnormal forces which lead to chronic overuse symptoms can
+              be alleviated. Orthotic intervention coupled with proper stretching and strengthening
+              lead to tremendous results."
+  care: "Taking care of the orthotics and stretching is important for effectiveness and longevity
+         of your inserts. The Orthotics are custom made to your feet and will change lower
+         extremity mechanics. A gradual break-in period is advised, because orthotics
+         change how the foot mechanically works and how your shoes fit.
+         <br><br>
+         Please review the <a href=\"pdf/care.pdf\">Orthotic Care Guide</a>."
+
+directions:
+  summary: "The Custom Footworks Office can be found at: 6842 Lebanon Suite #104. Frisco, TX. 75034.<br><br>
+            The office can be found on the west side of the Starwood Plaza, and the building is co-owned by
+            The Frisco Counseling and Wellness Center. The office can be reached by entering the Starwood Plaza
+            and taking a left before the Flagpole and the Eyes of Starwood."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
