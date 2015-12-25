@@ -3,6 +3,10 @@
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
+header {
+  background-image: url(../img/header.jpg);
+}
+
 body {
   font-size: 16px;
 }
@@ -40,6 +44,11 @@ section#contact {
 /* Update font color for contact header section.*/
 section#contact .section-heading {
   color: #{{ site.color.secondary-dark}};
+}
+
+section#directions img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Add padding to containers to remove immediate div stacking. */
