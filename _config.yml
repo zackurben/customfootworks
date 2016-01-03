@@ -1,6 +1,6 @@
 # Site settings
 url: "customfootworks.com"
-baseurl: "/customfootworks"
+baseurl: ""
 timezone: America/Chicago
 exclude: [".git/", "LICENSE", "README.md"]
 
